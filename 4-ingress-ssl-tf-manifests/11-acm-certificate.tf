@@ -1,6 +1,6 @@
 resource "aws_acm_certificate" "acm_cert" {
   domain_name       = "*.hellosaanvika.com"
-  validation_method = "DNS"
+  validation_method = "EMAIL"
 
   tags = {
     Environment = "dev"
